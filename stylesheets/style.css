@@ -1,0 +1,81 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(21, 19, 19);
+}
+
+header{
+    display:flex;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+    box-shadow: none;
+    transition: 0.3s;
+}
+header:hover{
+    box-shadow: 0px 5px 20px yellowgreen;
+}
+
+.header__text{
+    color:white;
+    font-size:larger;
+
+}
+.header__logo{
+    width: 200px;
+    height: 200px;
+
+}
+/*  */
+
+
+/*section */
+section{
+    margin:auto 200px;
+}
+h1{
+    font-size: 50px;
+    color: yellowgreen;
+}
+h2{
+    color: yellowgreen;
+}
+p{
+    color: white;
+    text-align: center;
+}
+.image{
+    display:flex;
+    justify-content: center;
+
+
+}
+.main-image{
+
+    width: 600px;
+    height: 200px;
+    background: url("https://media.zenfs.com/en/newsfile_64/baf26a2aa78d25cfe955da21d63867c3");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;
+
+
+}
+
+/*  */
+
+
+/* footer */
+
+
+footer{
+    background: black;
+}
+.footer__text{
+    color:white;
+    text-decoration: none;
+    margin:0px;
+    padding:0px;
+}
